@@ -5,6 +5,8 @@ import heroImg from '../assets/hero.png'
 import vueLogo from '../assets/vue.svg'
 import Card from './Card.vue'
 import Footer from './footer.vue'
+import Cards from './List.vue'
+import List from './List.vue'
 
 const count = ref(0)
 </script>
@@ -14,11 +16,8 @@ const count = ref(0)
     <div>
       <h1>Vue</h1>
     </div>
-    <button type="button" class="counter" @click="count++">
-      Count is {{ count }}
-    </button>
-
     <Card />
+    <List />
   </section>
   <Footer />
 </template>
